@@ -15,6 +15,7 @@ for:
   git checkout "branch_name"( me cambia de rama)
   git checkout -b "branch_name" (me permite crear una rama y pasarme automaticamente)
   git checkout -d "branch_name" (me permite eliminar una rama)
+  git checkout --track "branch_name" (me permite crear una rama basada en una remota y mantener asociación con la rama remota)
   git merge "branch_name" (me permite fusionar una rama con otra, para esto nos ubicamos en la rama a la cual le añadiremos los cambios y luego 
   hacemos el merge para mezclar)
   git pull( me trae los cambios desde el repositorio remoto y luego.
@@ -25,3 +26,4 @@ for:
   git reset me regresa el proyecto al commit indicado
   git reset --soft me regresa el proyecto al commit indicado manteniendo los cambios en el área de preparación 
   git reset --hard me regresa el proyecto al commit indicado eliminando los cambios realizados
+  git push origin: "branch remoto"; (elimina rama remota);
